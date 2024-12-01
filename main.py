@@ -20,3 +20,7 @@ class hawk:
 
 obj1=eagle("task",2)
 obj2=hawk("kit",1)
+for i in(obj1, obj2): 
+    i.info()
+    i.make_sound()
+    
